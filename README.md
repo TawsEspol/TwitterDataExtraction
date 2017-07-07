@@ -34,17 +34,17 @@ Para esto se le ha proporcionado un script incompleto que procesa el texto de ta
 - ~~De ambos literales, muestre graficos que le permitan analizar mejor los datos.~~
 
 
-### Parte 4: Analisis Espacial - HeatMap ###
+### Parte 4: Analisis Espacial - Visualizacion ###
 Usted va a completar y utilizar el script `parte4.1`, para poder sacar tweets en tiempo real utilizando el parametro locations, y almacene los tweets en una coleccion de MongoDB. En [esta pagina](http://boundingbox.klokantech.com/) puede generar Bounding Boxes de manera facil. En la parte de abajo, seleccione CSV RAW.
 
 Luego, completando el script `parte4.2`, usted tiene que generar un archivo que tenga el siguiente formato:
->>> latitud,longitude
+> latitud,longitude
 
->>> 40.166,-105.15
+> 40.166,-105.15
 
->>> 38.9833,-121.15
+> 38.9833,-121.15
 
->>> - ...,...
+> ...,...
 
 El cual contiene las coordenadas de latitud y longitud de sus tweets. Recuerde que no todos los tweets que baje poseen este atributo.
 
