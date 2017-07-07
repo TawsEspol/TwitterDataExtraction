@@ -39,9 +39,12 @@ Usted va a completar y utilizar el script `parte4.1`, para poder sacar tweets en
 
 Luego, completando el script `parte4.2`, usted tiene que generar un archivo que tenga el siguiente formato:
 >>> latitud,longitude
+
 >>> 40.166,-105.15
+
 >>> 38.9833,-121.15
->>> ...,...
+
+>>> - ...,...
 
 El cual contiene las coordenadas de latitud y longitud de sus tweets. Recuerde que no todos los tweets que baje poseen este atributo.
 
